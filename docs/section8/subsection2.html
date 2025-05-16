@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>5 Welcome Page - PMTaro Manual</title>
+    <title>Data Interaction & Toolbar - PMTaro Manual</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
@@ -13,8 +13,8 @@
     
       <script>
         // Current page data
-        var mkdocs_page_name = "5 Welcome Page";
-        var mkdocs_page_input_path = "section5\\index.md";
+        var mkdocs_page_name = "Data Interaction \u0026 Toolbar";
+        var mkdocs_page_input_path = "section8\\subsection2.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -74,9 +74,9 @@
               </ul>
               <p class="caption"><span class="caption-text">5 Welcome Page </span></p>
               <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="subsection1.html">New Dataset</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../section5/subsection1.html">New Dataset</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="subsection2.html">Recent Dataset</a>
+                  <li class="toctree-l1"><a class="reference internal" href="../section5/subsection2.html">Recent Dataset</a>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">6 Dataset Parse Page </span></p>
@@ -114,10 +114,34 @@
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">8 Dataset Browing Page</span></p>
-              <ul>
-                  <li class="toctree-l1"><a class="reference internal" href="../section8/subsection1.html">Image Interface</a>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="subsection1.html">Image Interface</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../section8/subsection2.html">Data Interaction & Toolbar</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="subsection2.html">Data Interaction & Toolbar</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#821-interaction-info-list">8.2.1 Interaction Info List</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#822-layout-selection">8.2.2 Layout Selection</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#823-windowlevel-contrast">8.2.3 Window/Level (Contrast)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#824-pan">8.2.4 Pan</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#825-zoom">8.2.5 Zoom</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#826-crosshair">8.2.6 Crosshair</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#827-paint-segmentation">8.2.7 Paint (Segmentation)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#828-rectangle-measurement">8.2.8 Rectangle (Measurement)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#829-polygon-measurement">8.2.9 Polygon (Measurement)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#8210-ruler-measurement">8.2.10 Ruler (Measurement)</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#8211-3d-crop">8.2.11 3D Crop</a>
+    </li>
+    </ul>
                   </li>
               </ul>
               <p class="caption"><span class="caption-text">9 Plugin Page </span></p>
@@ -156,7 +180,8 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html" class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">5 Welcome Page</li>
+          <li class="breadcrumb-item">8 Dataset Browing Page</li>
+      <li class="breadcrumb-item active">Data Interaction & Toolbar</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -165,15 +190,60 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="5-welcome-page">5 Welcome Page</h1>
-<h2 id="_1">本章内容</h2>
+                <h1 id="82-data-interaction-toolbar">8.2 Data Interaction &amp; Toolbar</h1>
+<h2 id="821-interaction-info-list">8.2.1 Interaction Info List</h2>
+<p>In the toolbar on the right-hand side, the first button is "Interaction Info List", which consists of two sections: "Annotation" and "Rendering".</p>
 <ul>
-<li><a href="subsection1.html">New Dataset</a></li>
-<li><a href="subsection2.html">Recent Dataset</a></li>
+<li>Annotation: This module contains two sections: one part is about segment information, and the other part is about measurements information.
+<img alt="Image_36" src="../images/image_36.png" /></li>
 </ul>
+<p>When the user is using the Paint tool, this list allows for setting properties of Paint tool. The upper part allows users to select the brush or eraser for drawing and adjust the brush size and ROI area transparency. The lower part is for managing multiple ROI groups, where each ROI group can be custom-named, hidden, downloaded, and deleted. The ROI group colors can be added, selected, and named.</p>
+<p><img alt="Image_65" src="../images/image_65.png" /></p>
+<p>When the user is using the measurement tool, users can also view completed annotations in this list. For completed measurements, users can perform operations such as reveal slice, visibility toggle, and delete.</p>
+<p><img alt="Image_82" src="../images/image_82.png" /></p>
+<ul>
+<li>Rendering: The module allows users to render data and adjust settings for cinematic rendering.
+<img alt="Image_49" src="../images/image_49.png" /></li>
+</ul>
+<p><img alt="Image_13" src="../images/image_13.png" /></p>
+<h2 id="822-layout-selection">8.2.2 Layout Selection</h2>
+<p>On this page, users can select the layout interface and achieve 3D reconstruction. </p>
+<p><img alt="Image_32" src="../images/image_32.png" /></p>
+<h2 id="823-windowlevel-contrast">8.2.3 Window/Level (Contrast)</h2>
+<p>This button enables contrast adjustment functionality. We have incorporated default settings for image reading, along with four additional options: Full Range, Low Contrast, Medium Contrast, and High Contrast. Users can conveniently select these options based on their requirements. Users can also hold down the left mouse button on the image and move up and down to adjust the window level, and left and right to adjust the window width.</p>
+<p><img alt="Image_53" src="../images/image_53.png" /></p>
+<p><img alt="Image_76" src="../images/image_76.png" /></p>
+<h2 id="824-pan">8.2.4 Pan</h2>
+<p>To pan, click on the Pan button, then hold down the left mouse button on the image and drag it to move the view.</p>
+<p><img alt="Image_37" src="../images/image_37.png" /></p>
+<h2 id="825-zoom">8.2.5 Zoom</h2>
+<p>To zoom, click on the Zoom button in the toolbar, then hold down the left mouse button on the image and move up and down to zoom in and out.</p>
+<p><img alt="Image_4" src="../images/image_4.png" /></p>
+<h2 id="826-crosshair">8.2.6 Crosshair</h2>
+<p>To use the Crosshair feature, click on the Crosshair button in the toolbar. A cross-shaped crosshair will track the mouse cursor on the image. Click to lock the crosshair at the desired position.</p>
+<p><img alt="Image_22" src="../images/image_22.png" /></p>
+<h2 id="827-paint-segmentation">8.2.7 Paint (Segmentation)</h2>
+<p>In the toolbar, choose the Paint button to utilize the brush tool for selecting Regions of Interest (ROI) on the image.</p>
+<p><img alt="Image_54" src="../images/image_54.png" /></p>
+<h2 id="828-rectangle-measurement">8.2.8 Rectangle (Measurement)</h2>
+<p>In the Toolbar, click on the Rectangle button, then utilize the brush tool to select the ROI area on the image. Begin by selecting the starting point, and then confirm the endpoint to finish drawing a rectangular ROI.</p>
+<p><img alt="Image_74" src="../images/image_74.png" /></p>
+<h2 id="829-polygon-measurement">8.2.9 Polygon (Measurement)</h2>
+<p>Within the Toolbar, locate and select the Polygon tool. Utilize the brush tool to outline the ROI on the image. Begin by choosing an initial point, then confirm each subsequent point by clicking the mouse. Continue this process until the final point coincides with the starting point, thus forming a closed shape and completing the drawing of the Polygon ROI area.</p>
+<p><img alt="Image_33" src="../images/image_33.png" /></p>
+<h2 id="8210-ruler-measurement">8.2.10 Ruler (Measurement)</h2>
+<p>Select the Ruler button in the Toolbar, then use the tool to choose a starting point on the image and confirm the endpoint to measure the distance between the two points.</p>
+<p><img alt="Image_5" src="../images/image_5.png" /></p>
+<h2 id="8211-3d-crop">8.2.11 3D Crop</h2>
+<p>Select the 3D Crop button in the Toolbar, then adjust the corner, edge, and side markers in the 3D window, and manipulate the edges of the bounding box overlaid on the data in the 2D windows to make precise adjustments.</p>
+<p><img alt="Image_23" src="../images/image_23.png" /></p>
               
             </div>
           </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="subsection1.html" class="btn btn-neutral float-left" title="Image Interface"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../section9/subsection1.html" class="btn btn-neutral float-right" title="Node">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
 
   <hr/>
 
@@ -195,6 +265,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
+      <span><a href="subsection1.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../section9/subsection1.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
