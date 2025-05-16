@@ -1,16 +1,14 @@
-# PMT software
+# PMTaro User Manual V0.1.0
 
-## Introduction
+## Menu
 
-
-## User Manual
-- Get Started
-- [Parsing](user_manual/parsing.md)
-- [Cleaning](user_manual/cleaning.md)
-- [Post-processing](user_manual/post-processing.md)
-- [Import & Export](user_manual/import_export.md)
-- [Setting](user_manual/setting.md)
-
-    
-    
-## Liences
+* [1 Introduction](section1/index.md)
+* [2 Software Description](section2/index.md)
+* [3 Installation and Setup](section3/index.md)
+* [4 Software Page Overview](section4/index.md)
+* [5 Welcome Page ](section5/index.md)
+* [6 Dataset Parse Page ](section6/index.md)
+* [7 Dataset Detail Page](section7/index.md)
+* [8 Dataset Browing Page](section8/index.md)
+* [9 Plugin Page ](section9/index.md)
+* [10 Pipelines Page (MPF Post-processing)](section10/index.md)
