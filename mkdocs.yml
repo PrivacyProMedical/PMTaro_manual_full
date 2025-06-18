@@ -1,26 +1,26 @@
-extra_css:
-- stylesheets/extra.css
 markdown_extensions:
 - admonition
 - codehilite
 - toc
+- tables
 nav:
 - Home: index.md
-- 1 Introduction: section1/index.md
-- 2 Software Description: section2/index.md
+- 1 Introduction: []
+- 2 Software Description: []
 - 3 Installation and Setup:
   - Download PMTaro installer & Run setup wizard: section3/subsection1.md
-  - Configuration: section3/subsection2.md
+  - PMTaro Activation: section3/subsection2.md
 - 4 Software Page Overview:
   - Welcome Page: section4/subsection1.md
   - Dataset Parse Page: section4/subsection2.md
   - Dataset Detail Page: section4/subsection3.md
   - Dataset Browing Page: section4/subsection4.md
   - Pipelines Page: section4/subsection5.md
-- '5 Welcome Page ':
+- 5 Welcome Page:
   - New Dataset: section5/subsection1.md
   - Recent Dataset: section5/subsection2.md
-- '6 Dataset Parse Page ':
+  - DICOM Server: section5/subsection3.md
+- 6 Dataset Parse Page:
   - Add Folder: section6/subsection1.md
   - Prepare Dataset: section6/subsection2.md
   - Refresh: section6/subsection3.md
@@ -28,7 +28,7 @@ nav:
   - Automatic Split: section6/subsection5.md
   - Broom: section6/subsection6.md
   - Parse: section6/subsection7.md
-  - Data swapper: section6/subsection8.md
+  - Data Retrieval: section6/subsection8.md
   - Settings: section6/subsection9.md
 - 7 Dataset Detail Page:
   - Reports: section7/subsection1.md
@@ -39,20 +39,18 @@ nav:
 - 8 Dataset Browing Page:
   - Image Interface: section8/subsection1.md
   - Data Interaction & Toolbar: section8/subsection2.md
-- '9 Plugin Page ':
+- 9 Plugin Page:
   - Node: section9/subsection1.md
-  - 'Plugin ': section9/subsection2.md
+  - Plugin: section9/subsection2.md
 - 10 Pipelines Page (MPF Post-processing):
   - New Pipeline: section10/subsection1.md
   - Pipeline Control Panel: section10/subsection2.md
   - View Control Panel: section10/subsection3.md
+  - Smooth Processing Pipeline (Auto): section10/subsection4.md
   - MPF Phase Map Calculation Pipeline (Auto): section10/subsection5.md
-  - RMPFSL Map Calculation Pipeline (Auto): section10/subsection6.md
-  - MPF Map Calculation Pipeline (Auto): section10/subsection7.md
-plugins:
-- search
+  - RMPFSL & MPF Map Calculation Pipeline (Auto): section10/subsection6.md
+  - ROI Annotation (Manual): section10/subsection7.md
+  - Batch Processing (Auto & Manual): section10/subsection7.md
 site_name: PMTaro Manual
-theme: readthedocs
-docs_dir: markdowns
-site_dir: docs
-use_directory_urls: false
+theme:
+  name: readthedocs
