@@ -9,4 +9,4 @@
 * [MPF Phase Map Calculation Pipeline (Auto)](subsection5.md)
 * [RMPFSL & MPF Map Calculation Pipeline (Auto)](subsection6.md)
 * [ROI Annotation (Manual)](subsection7.md)
-* [Batch Processing (Auto & Manual)](subsection7.md)
+* [Batch Processing (Auto & Manual)](subsection8.md)

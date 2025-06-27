@@ -1,6 +1,5 @@
 # 3.2 PMTaro Activation
 Step 1: When the user runs the software for the first time, the system will pop up an "Unregistered" prompt dialog box.
-
 ![Image](../images/image_15.jpg)
 
 Step 2: After clicking "Close", the software registration tool will open automatically. In the registration tool, click the "Copy" button to copy the Machine ID of this machine.
@@ -18,3 +17,5 @@ Step 5: Click the "Activate" button, the system will verify the authorization fi
 ![Image](../images/image_19.jpg)
 
 Step 6: Software registration successful.
+
+![Image](../images/image_20.png)
